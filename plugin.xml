@@ -7,7 +7,7 @@
     <name>SwiftSupport</name>
     
     <platform name="android">
-        <source-file src="src/android/VritraPlugin.java"/>
+        <source-file src="src/android/VritraPlugin.java" target-dir="src/com/vritra"/>
     </platform>
 
     <platform name="ios">
