@@ -1,0 +1,4 @@
+# <img width="20"  src="https://raw.githubusercontent.com/AhmedAyachi/RepoIllustrations/f7ee069a965d3558e0e7e2b7e6733d1a642c78c2/Vritra/Icon.svg"> ![GitHub license](https://img.shields.io/badge/vritra--plugin--common-e03065) &middot;  ![GitHub license](https://img.shields.io/badge/cordova--android-10.1.2-e03065) ![GitHub license](https://img.shields.io/badge/cordova--ios-7-e03065)
+
+This plugin is a customized extension to the [cordova-plugin-add-swift-support](https://github.com/akofman/cordova-plugin-add-swift-support) project.
+It adds a VritraPlugin class that's extended by other vritra plugins.

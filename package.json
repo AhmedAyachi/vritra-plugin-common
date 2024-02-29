@@ -1,0 +1,24 @@
+{
+  "name": "vritra-plugin-common",
+  "version": "1.0.0",
+  "description": "customized cordova plugin tto be consumed by other vritra plugins",
+  "main": "www/index.js",
+  "types": "index.d.ts",
+  "cordova": {
+    "id": "vritra-plugin-common",
+    "platforms": [
+      "android","ios"
+    ]
+  },
+  "keywords": [
+    "cordova","plugin",
+    "swift","support",
+    "android","ios"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AhmedAyachi/vritra-plugin-common"
+  },
+  "author": "Ahmed Ayachi",
+  "license": "MIT"
+}

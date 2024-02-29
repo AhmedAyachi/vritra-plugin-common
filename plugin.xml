@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin 
+    id="vritra-plugin-common" version="1.0.0" 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <name>SwiftSupport</name>
+    
+    <platform name="android">
+        <source-file src="src/android/VritraPlugin.java"/>
+    </platform>
+
+    <platform name="ios">
+        <hook type="after_prepare" src="src/ios/SwiftSupport.js"/>
+        <hook type="after_platform_add" src="src/ios/SwiftSupport.js"/>
+        <hook type="after_plugin_add" src="src/ios/SwiftSupport.js"/>
+        <source-file src="src/ios/VritraPlugin.swift"/>
+    </platform>
+
+</plugin>
