@@ -154,6 +154,9 @@ class VritraPlugin:CDVPlugin {
         public var errorDescription:String?{
             return self.message; 
         }
+        public func toObject()->[String:Any]{
+            return ["message":self.message];
+        }
     }
 }
 

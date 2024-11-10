@@ -1,6 +1,6 @@
 {
   "name": "vritra-plugin-common",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "customized cordova plugin tto be consumed by other vritra plugins",
   "main": "www/index.js",
   "types": "index.d.ts",
