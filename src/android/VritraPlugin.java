@@ -31,4 +31,19 @@ public class VritraPlugin extends CordovaPlugin {
             default: return Color.parseColor(name);
         }
     }
+
+    public static String camelToSnakeCased(String camelCased){
+        String snakeCased="";
+        final int charCount=camelCased.length();
+        for(int i=0;i<charCount;i++){
+            final Character c=camelCased.charAt(i);
+            if(Character.isUpperCase(c)){
+                snakeCased+="_"+Character.toLowerCase(c);
+            }
+            else{
+                snakeCased+=c;
+            }
+        }
+        return snakeCased;
+    }
 }
